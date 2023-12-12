@@ -43,9 +43,7 @@ app.get('/js/login.js', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'js', 'login.js'));
 });
 
-app.get('/dashboard', (req, res) => {
-  res.render('dashboard'); 
-});
+
 
 app.get('/signup', (req, res) => {
   res.render('signup'); 

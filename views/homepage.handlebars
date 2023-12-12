@@ -3,7 +3,7 @@
 <div class="row mb-4 project">
   <div class="col-md-5">
     <h2>
-      <a href="/post/{{post.id}}">{{post.title}}</a>
+      <a href="/posts/{{post.id}}">{{post.title}}</a>
     </h2>
     <p>
       <span for="img" aria-label="money">💲</span>
@@ -12,15 +12,14 @@
 
     </p>
     <p>Created by {{post.user.name}}</p>
-    {{#if logged_in}}
-    <button>Delete!</button>
-    {{else}}
-    <button>Comment!</button>
-    {{/if}}
+
+
+
+
   </div>
   <div class="col-md-7">
 
   </div> 
 </div>
 {{/each}}
-<script></script>
+<script src="./js/home.js"></script>
