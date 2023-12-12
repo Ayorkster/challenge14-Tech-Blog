@@ -12,7 +12,7 @@ const app = express();
 
 
 const sess = {
-  secret: process.env.SESSION_SECRET, 
+  secret: "secret", 
   cookie: {
     maxAge: 3000000, 
   },
